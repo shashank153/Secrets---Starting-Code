@@ -96,7 +96,7 @@ app.post("/login", function (req, res) {
                     if(result){
                         res.render("secrets");
                     }else{
-                        res.send("Incorrect Password!!");
+                        res.send("Wrong Password!!");
                     }
                 })
             }
